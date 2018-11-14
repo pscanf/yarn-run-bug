@@ -1,0 +1,15 @@
+{
+  "name": "yarn-run-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pscanf <paolo.scanferla@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test.js",
+    "coverage": "nyc yarn test"
+  },
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
